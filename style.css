@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Esse import url é para importar do site "Google Fonts" a fonte chamada 'Poppins' */
+
+.body-home {
+    /* Estilizando o body da página principal */
+    background-color: #fdfbda;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    /* Estilizando a lista */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d7d5b5;
+    border-radius: 15px;
+}
+
+li {
+    /* Instrução para deixar todos os "li" na esquerda */
+    float: left;
+}
+
+li a {
+    /* Aplicando estile no nas tags "li" e "a" (colocando efeito no "a" dentro do "li") */
+    display: block;
+    color: #fdfbda;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    /* Instrução para que quando eu passar o mouse em cima do "about", ele não mude de cor também */
+    background-color: #adab8c;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.active {
+    /* Estilizando o background da palavra "About", para dar destaque */
+    background-color: #adab8c;
+}
+
+.explicacao {
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.funcao {
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.body-creators {
+    /* Estilizando o body da página principal */
+    background-color: #fdfbda;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-links {
+    /* Estilizando o body da página principal */
+    background-color: #fdfbda;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-about {
+    /* Estilizando o body da página principal */
+    background-color: #fdfbda;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name-enzo {
+    /* estilizando o nome Enzo */
+    font-family: 'Poppins';
+    color: #000000;
+}
+
+.name-nicolas {
+    /* estilizando o nome Nicolas */
+    font-family: 'Poppins';
+    color: #000000;
+}
+
+.img-enzo {
+    /* borda na imagem do Enzo */
+    border: 5px solid #000000;
+    border-radius: 10%;
+    width: 500px;
+    height: 500px;
+}
+
+.img-nicolas {
+    /* borda na imagem do Nicolas */
+    border: 5px solid #000000;
+    border-radius: 10%;
+    width: 500px;
+    height: 500px;
+}
+
+.google {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 3px solid #adab8c;
+}
+
+.w3schools {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 3px solid #adab8c;
+}
+
+.uol {
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    border: 3px solid #adab8c;
+}
